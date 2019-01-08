@@ -1,1 +1,28 @@
 <h1>Make your form here</h1>
+
+  <form method="post" action="/pirates">
+     <p>Pirate Name: <input type="text" name="pirate[name]"></p>
+     <p>Pirate Weight: <input type="text" name="pirate[weight]"></p>
+     <p>Pirate Height: <input type="text" name="pirate[height]"></p>
+     <label for="ship_name_1">Ship Name<input type="text" id="ship_name_1" name="pirate[ships][][name]"></label><br>
+     <label for="ship_type_1">Ship Type<input type="text" id="ship_type_1" name="pirate[ships][][type]"></label><br>
+     <label for="ship_booty_1">Ship Booty<input type="text" id="ship_booty_1" name="pirate[ships][][booty]"></label><br>
+     <label for="ship_name_2">Ship Name<input type="text" id="ship_name_2" name="pirate[ships][][name]"></label><br>
+     <label for="ship_type_2">Ship Type<input type="text" id="ship_type_2" name="pirate[ships][][type]"></label><br>
+     <label for="ship_booty_3">Ship Booty<input type="text" id="ship_booty_2" name="pirate[ships][][booty]"></label><br>
+     <input type="submit" value="Submit">
+  </form>
+
+  <!-- <h1>Make your form here</h1> -->
+  <!-- <form method="post" action="/pirates">
+    <label for="">Pirate Name<input type="text" name="pirate[name]"></label>
+    <label for="">Pirate Weight<input type="text" name="pirate[weight]"></label>
+    <label for="">Pirate Height<input type="text" name="pirate[height]"></label>
+    <label for="ship_name1">Ship Name<input type="text" id="ship_name_1" name="pirate[ships][][name]"></label>
+    <label for="ship_type1">Ship Type<input type="text" id="ship_type_1" name="pirate[ships][][type]"></label>
+    <label for="ship_booty1">Ship Booty<input type="text" id="ship_booty_1" name="pirate[ships][][booty]"></label>
+    <label for="ship_name2">Ship Name<input type="text" id="ship_name_2" name="pirate[ships][][name]"></label>
+    <label for="ship_type2">Ship Type<input type="text" id="ship_type_2" name="pirate[ships][][type]"></label>
+    <label for="ship_booty3">Ship Booty<input type="text" id="ship_booty_2" name="pirate[ships][][booty]"></label>
+    <input type="submit" value="Submit">
+  </form> -->
