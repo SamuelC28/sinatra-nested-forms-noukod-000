@@ -1,6 +1,4 @@
 require './environment'
-require_relative 'app/models/pirate'
-require_relative 'app/models/ship'
 
 module FormsLab
   class App < Sinatra::Base
@@ -11,7 +9,7 @@ module FormsLab
     end
 
     get '/new' do
-      erb :new
+      erb :'pirate/new'
     end
 
   	post '/ship' do
